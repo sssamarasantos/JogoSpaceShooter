@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+#main-play-area{
+    background-color: black;
+    background-image: url(img/space.jpg);
+    background-position: center;
+    height: 600px;
+    width: 650px;
+}
+.instructions{
+    position: relative;
+    color: white;
+    left: 8rem;
+    top: 0px;
+    font-size: 17px;
+    font-family: monospace;
+}
+.start{
+    position: relative;
+    background-color: rgb(0, 196, 0);
+    top: 7rem;
+    left: 15rem;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: monospace;
+    width: 10rem;
+    border: black 2px solid;
+}
+.start:hover{
+    color: white;
+    border: white 2px solid;
+}
+.player-shooter{
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px;
+}
+.laser{
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+.alien{
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+.alien-transition{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+.dead-alien{
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
+.vidas{
+    position: relative;
+    height: 30px;
+    width: 40px;
+}
+.energia{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#points{
+    position: relative;
+    margin-top: 5px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.pontuacao-final{
+    position: relative;
+    top: 10rem;
+    left: 7rem;
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+}
